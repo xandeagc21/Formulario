@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width-device-width,user-scalable=0" />
+        <title>Cadastro Aluno </title>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+    </head>
+    <body>
+        <header>
+            <div class="conteiner">
+                <div class="conteiner_title">
+                    <h1>Preencha os dados abaixo para matricula</h1>
+                </div>
+            </div>
+        </header>
+        <section>
+            <div class="conteiner">
+                <div class="section_form">
+                    <form method="get" action="envio_dados.php">
+                        <input id="name" type="text" name="nome" placeholder="Nome completo aluno" >
+                        <input id="rua" type="text" name="rua" placeholder="Rua" >
+                        <input id="numero" type="number" name="numero" placeholder="numero" >
+                        <input id="bairro" type="text" name="bairro" placeholder="bairro" >
+                        <input id="cidade" type="text" name="cidade" placeholder="cidade" >
+                        <input id="estado" type="text" name="estado" placeholder="estado">
+                        <input id="mae" type="text" name="mae" placeholder="nome da mãe" >
+                        <input id="pai" type="text" name="pai" placeholder="nome da pai" >
+                        <input id="cpf" type="text" name="cpf" placeholder="CPF" >
+                        <input id="telefone" type="text" name="telefone" placeholder="( ) telefone"  maxlength="11">
+
+                        <section>
+                            <div class="conteiner">
+                                <div class="serie">
+                                    <div class="title_serie">Escolha a serie e ensino</div>
+                                    <h3>Maternal <input type="radio" name="ensino"></h3>
+                                    <h3>Fundamental <input type="radio" name="ensino"></h3>
+                                    <h3>Médio <input type="radio" name="ensino"></h3>
+                                                                        
+                                </div>
+                                <div class="ano">
+                                    <h3>1 <input type="radio" name="ano_escola" id="serie_ano"></h3>
+                                    <h3>2 <input type="radio" name="ano_escola" id="serie_ano"></h3>
+                                    <h3>3 <input type="radio" name="ano_escola" id="serie_ano"></h3>
+                                    <h3>4 <input type="radio" name="ano_escola" id="serie_ano"></h3>
+                                    <h3>5 <input type="radio" name="ano_escola" id="serie_ano"></h3>
+                                    <h3>6 <input type="radio" name="ano_escola" id="serie_ano"></h3>
+                                    <h3>7 <input type="radio" name="ano_escola" id="serie_ano"></h3>
+                                    <h3>8 <input type="radio" name="ano_escola" id="serie_ano"></h3>
+                                    <h3>9 <input type="radio" name="ano_escola" id="serie_ano"></h3>
+                                    
+                                </div>
+                            </div>
+                            
+                        </section>
+                        <div class="envia"><input type="submit" value="Salvar" width="150px" height="30px">
+                            <input type="submit" value="Sair"  >
+                        
+                        </div>
+                        
+                        
+                           
+                    </form>
+                    
+
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
